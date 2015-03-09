@@ -16,6 +16,7 @@ body {
     border:0;
     box-shadow:none;
 	background: transparent;
+    position: relative;
 }
 #header h1 {
     margin: 1px; 
