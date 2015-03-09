@@ -1,0 +1,17 @@
+
+body {
+    background: #fefefe url("../i/rittco_be_body.jpg") repeat-x
+}
+#header:before {
+	content:'';
+    background: url("../i/rittco_be_logo.png") no-repeat;
+    position: relative;
+    position: absolute;
+    display: block;
+    width: 179px;
+    height: 75px;
+    top: 30px;
+}
+#header {
+    margin-top: 130px;
+}

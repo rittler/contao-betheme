@@ -1,0 +1,61 @@
+
+body {
+    background: #fefefe url("../i/rittco_be_body.jpg") repeat-x
+}
+#header:before {
+	content:'';
+    background: url("../i/rittco_be_logo.png") no-repeat;
+    position: relative;
+    position: absolute;
+    display: block;
+    width: 179px;
+    height: 75px;
+    top: 30px;
+}
+#header {
+    border:0;
+    box-shadow:none;
+	background: transparent;
+}
+#header h1 {
+    margin: 1px; 
+    padding: 45px 0 0 0;
+    text-align: right;
+    background:none;
+    border:none;
+    color:#666966;
+}
+#header div {
+    margin: 0;
+    padding: 6px 0 8px 11px;
+    text-align: right;
+    color: #666966
+}
+#header div span {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 3px 5px;
+}
+#header div span a {
+	margin: 0;
+}
+#header .tl_error {
+	margin-top: 20px;
+}
+#quickjump4ward {
+/*    position:absolute !important;
+    margin-left:584px !important;
+    margin-top:3px !important;
+    border:none !important;
+    background:none !important;
+    right: 10px;
+    padding:0 !important;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none !important;
+    border:none !important;
+}
+#container {
+	margin-top: 30px;
+}
