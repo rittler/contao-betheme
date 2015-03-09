@@ -1,0 +1,24 @@
+{
+    "name": "rittler/contao-betheme",
+    "type": "contao-module",
+    "description": "Rittler & Co Backend Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Valentin Sampl",
+            "email":"v.sampl@rittler.co",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7",
+        "contao/core": ">=3.2,<4"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/rico_betheme"
+            }
+        }
+    }
+}
