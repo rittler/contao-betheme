@@ -4,13 +4,14 @@ body {
 }
 #header:before {
 	content:'';
-    background: url("../i/rittco_be_logo.png") no-repeat;
+    background: url("../i/logo_rittler.png") no-repeat;
+    backround-size: 100%;
     position: relative;
     position: absolute;
     display: block;
-    width: 179px;
-    height: 75px;
-    top: 30px;
+    width: 200px;
+    height: 32px;
+    top: 55px;
 }
 #header {
     border:0;
