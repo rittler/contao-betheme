@@ -3,9 +3,9 @@
 if(TL_MODE == 'BE') {
 
 	if(strpos(Environment::getInstance()->request, 'main') !== false) {
-		$GLOBALS['TL_CSS'][] = 'system/modules/rico_betheme/assets/c/main.css';
+		$GLOBALS['TL_CSS'][] = 'system/modules/rico_betheme/assets/c/main.css?v='.filemtime(TL_ROOT.'/system/modules/rico_betheme/assets/c/main.css');
 	} else {
-		$GLOBALS['TL_CSS'][] = 'system/modules/rico_betheme/assets/c/login.css';
+		$GLOBALS['TL_CSS'][] = 'system/modules/rico_betheme/assets/c/login.css?v='.filemtime(TL_ROOT.'/system/modules/rico_betheme/assets/c/login.css');
 	}
 
 }
